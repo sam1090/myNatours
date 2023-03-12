@@ -1,0 +1,49 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "learning node, express and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --watch ./server.js",
+    "start:prod": "NODE_ENV=production node --watch ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "ndb server.js"
+  },
+  "author": "Saumya Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.0.1",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3",
+    "morgan": "^1.10.0",
+    "ndb": "^0.2.4",
+    "ndp": "^1.0.2",
+    "nodemailer": "^6.9.1",
+    "pug": "^3.0.2",
+    "slugify": "^1.6.5",
+    "util": "^0.12.5",
+    "validator": "^13.7.0",
+    "validators": "^0.3.1",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.4",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.0",
+    "prettier": "^2.8.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
